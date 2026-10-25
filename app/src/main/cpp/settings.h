@@ -91,16 +91,16 @@ namespace Config {
     constexpr int NCNN_NUM_THREADS = 4;
     
     /// Enable Vulkan compute shaders
-    constexpr bool NCNN_USE_VULKAN_COMPUTE = true;
+    constexpr bool NCNN_USE_VULKAN_COMPUTE = false;
     
     /// Enable FP16 packed (critical for Adreno 660)
-    constexpr bool NCNN_USE_FP16_PACKED = true;
+    constexpr bool NCNN_USE_FP16_PACKED = false;
     
     /// Enable FP16 storage (critical for Adreno 660)
-    constexpr bool NCNN_USE_FP16_STORAGE = true;
+    constexpr bool NCNN_USE_FP16_STORAGE = false;
     
     /// Enable FP16 arithmetic (Adreno 660 has native FP16 support)
-    constexpr bool NCNN_USE_FP16_ARITHMETIC = true;
+    constexpr bool NCNN_USE_FP16_ARITHMETIC = false;
     
     /// Enable packing layout optimization
     constexpr bool NCNN_USE_PACKING_LAYOUT = true;
